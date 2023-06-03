@@ -27,9 +27,6 @@ Latest commit 09c938e 3 days ago
 
 const todoList = () => {
     all = []
-    const add = (todoItem) => {
-      all.push(todoItem)
-    }
     const markAsComplete = (index) => {
       all[index].completed = true
     }
